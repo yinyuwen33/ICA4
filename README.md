@@ -7,7 +7,7 @@ SELECT player_name, height
 FROM datasets.college_football_players
 ORDER BY height DESC
 ```
-
+![ICA4-1](Visualization/ICA4-1.png)
 
 Q2
 
@@ -16,6 +16,7 @@ SELECT player_name, weight
 FROM datasets.college_football_players
 ORDER BY weight DESC
 ```
+![ICA4-1](Visualization/ICA4-2.png)
 
 Q3
 
@@ -25,6 +26,7 @@ FROM datasets.college_football_players
 WHERE year = 'JR'
 ORDER BY height DESC
 ```
+![ICA4-1](Visualization/ICA4-3.png)
 
 Q4
 
@@ -34,6 +36,7 @@ FROM datasets.college_football_players
 WHERE state = 'OR'
 ORDER BY id ASC
 ```
+![ICA4-1](Visualization/ICA4-4.png)
 
 Q5
 
@@ -43,3 +46,6 @@ FROM datasets.college_football_players
 WHERE position = 'QB'
 ORDER BY id ASC
 ```
+
+![ICA4-1](Visualization/ICA4-5.png)
+
