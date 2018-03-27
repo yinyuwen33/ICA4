@@ -1,6 +1,6 @@
 # ICA4
 
-Q1
+Q1: Rank the players' height from highest to lowest
 
 ```sql
 SELECT player_name, height
@@ -9,7 +9,7 @@ ORDER BY height DESC
 ```
 ![ICA4-1](Visualization/ICA4-1.png)
 
-Q2
+Q2: Rank the players' weight from highest to lowest
 
 ```sql
 SELECT player_name, weight
@@ -18,7 +18,7 @@ ORDER BY weight DESC
 ```
 ![ICA4-1](Visualization/ICA4-2.png)
 
-Q3
+Q3: Rank the players' height from highest to lowest in Junior yr student
 
 ```sql
 SELECT player_name, height
@@ -28,7 +28,7 @@ ORDER BY height DESC
 ```
 ![ICA4-1](Visualization/ICA4-3.png)
 
-Q4
+Q4: In Ohio state, rank the ID from lowest to highest
 
 ```sql
 SELECT player_name, state, id
@@ -38,7 +38,7 @@ ORDER BY id ASC
 ```
 ![ICA4-1](Visualization/ICA4-4.png)
 
-Q5
+Q5: In the position QB, rank the id from lowest to highest
 
 ```sql
 SELECT player_name, position, id
